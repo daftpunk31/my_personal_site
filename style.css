@@ -1,11 +1,3 @@
-#header > .navbar{
-  margin: 0px;
-}
-
-#hero{
-  background-color: white; 
-}
-
 #hero img{
   height: 250px;
   width: 200px;
@@ -16,115 +8,61 @@
   color: #00224D;
 }
 
-#internships > .container{
-  display: grid;
-  grid-template-columns: 0.47fr minmax(250px, 1fr);
-  grid-template-rows: repeat(1fr, 1fr);
-  gap: 20px;
+#hero p{
+  font-family: "Inter Tight", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
 }
 
 #internships > h2{
-  text-align: center;
-  margin: 1.5rem;
-  font-family: "Montserrat", sans-serif;
-  font-size: 2.5rem;
-  font-weight: normal;
-  padding-bottom: 10px;
   color: #00224D;
+  text-align: center;
 }
 
-#internships > .container > .internship-pic{
+#internships > .container{
   display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#internships > .container > .internship-pic > img{
-  width: 250px;
-  height: 250px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 20px
 }
 
-#internships > .container > .internship-info > h3{
-  text-align: left;
-  color: #0F4C75;
+#internships > .container > img{
+  align-self: center;
 }
 
-#internships > .container > .internship-info > p{
-  text-align: left;
-  
-}
 
+#internships > .container > .internship-info{
+  align-self: flex-end;
+}
 
 #skills > h2{
-  text-align: center;
-  margin: 1.5rem;
-  font-family: "Montserrat", sans-serif;
-  font-size: 2.5rem;
-  font-weight: normal;
-  padding-bottom: 10px;
   color: #00224D;
+  text-align: center;
 }
 
 #skills > .container{
   display: grid;
-  grid-template-columns: 0.47fr minmax(250px, 1fr);
-  grid-template-rows: repeat(1fr, 1fr);
-  gap: 20px;
-}
-
-#skills > .container > .skill-pic{
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  
+  grid-template-columns: 1fr 2.5fr;
+  grid-template-rows: repeat(auto, auto);
+  gap: 30px;
+  justify-content: center;
 }
 
 #skills > .container > .skill-pic > img{
-  width: 240px;
-  height: 200px;
+  object-fit: cover;
+  width: 100%;
+  max-height: 90%;
 }
 
 #skills > .container > .skill-info{
-  margin: 1rem;
-  align-items: center;
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
 #skills > .container > .skill-info > h3{
-  text-align: left;
-  color: #0F4C75;
+  align-self: center;
 }
 
-#skills > .container > .skill-info > p{
-  text-align: left;
-  font-size: 18px;
-  
-}
-
-#hr{
-  border: dotted #000000 6px;
-  border-bottom: none;
-  width: 4%;
-  margin: 100px auto;
-}
-
-#contactme > .container > h2{
-  text-align: center;
-  margin: 1.5rem;
-  font-family: "Montserrat", sans-serif;
-  font-size: 2.5rem;
-  font-weight: bold;
-  padding-bottom: 10px;
-  color: #00224D;
-}
-
-#contactme > .container > h3{
-  text-align: center;
-  color: #0F4C75;
-  margin: 3rem;
-}
-
-#contactme > .container > h5{
-  color: #00224D;
-  text-align: center;
-
-}
